@@ -1,0 +1,227 @@
+/* theme button and heading*/
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(230, 226, 226)
+}
+
+#theme-box {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#theme-div {
+    background-color: rgb(177, 167, 167);
+    padding: 6px;
+    border-radius: 20px;
+}
+
+#music-player-heading {
+    text-align: center;
+}
+
+#theme-div-two {
+    width: 50%;
+    background-color: rgb(81, 81, 121);
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+
+}
+
+#theme-div-two:hover {
+    cursor: pointer;
+}
+
+#theme-div-two span {
+    visibility: hidden;
+}
+
+#theme-name {
+    margin-left: 5px;
+}
+
+/* all main divs */
+.all-div-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+} 
+
+.all-div-style {
+    background-color: rgb(98, 165, 228);
+    width: 400px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+/* genre section */
+
+#genre-container {
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+
+#genre-selection {
+    margin-left: 10px;
+    background-color: rgb(12, 90, 134);
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#genre-selection option{
+    background-color: rgb(29, 110, 187);
+}
+
+.songs-div {
+    padding: 10px;
+    box-shadow: -2px -2px 5px ;
+}
+
+.all-songs div {
+    background-color: rgb(29, 110, 187);
+    margin: 5px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.all-songs div:hover {
+    cursor: pointer;
+    background-color: rgb(98, 165, 228);
+}
+
+#song-search {
+    margin: 5px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+/* songs card section */
+.songs-card {
+    padding: 20px;
+    box-shadow: -2px -2px 5px ;
+}
+
+#inner-card {
+    background-color: rgb(29, 110, 187);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-shadow: -2px -2px 5px ;
+}
+.songs-card img{
+    width: 90%;
+    padding: 20px 20px 0 20px;
+}
+
+#title {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+
+#artist {
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+#audio-file {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#audio-file audio {
+    width: 90%;
+}
+
+.control-button {
+    width: 80px;
+    height: 50px;
+    background-color: rgb(19, 110, 187);
+    border: none;
+    font-size: large;
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.fb-button {
+    font-size: 30px;
+}
+
+.control-button:hover {
+    cursor: pointer;
+}
+/* playlist section */
+.playlist-div {
+    box-shadow: -2px -2px 5px ;
+}
+
+#input-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#input-playlist {
+    width: 70%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+#playlist-button {
+    width: 100px;
+    margin-left: 5px;
+    background-color: rgb(19, 110, 187);
+    border: none;
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+}
+
+#playlist-button:hover {
+    cursor: pointer;
+}
+
+#playlist-container {
+    padding: 10px;
+}
+
+#all-playlists div {
+    background-color: rgb(29, 110, 187);
+    margin: 5px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+}
+#play-search {
+    margin: 5px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+#all-playlists div:hover {
+    cursor: pointer;
+    background-color: rgb(98, 165, 228);
+}
+
+#create-playlist div {
+    background-color: rgb(29, 110, 187);
+    margin: 5px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#create-playlist div:hover {
+    cursor: pointer;
+    background-color: rgb(98, 165, 228);
+}
